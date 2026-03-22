@@ -1,0 +1,1 @@
+# SmartDoc AI - Source Package

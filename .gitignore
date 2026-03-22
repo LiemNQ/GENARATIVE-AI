@@ -1,0 +1,91 @@
+# ══════════════════════════════════════════════════════
+#  SmartDoc AI v1.3 — .gitignore
+# ══════════════════════════════════════════════════════
+
+# ── Python ────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+wheels/
+*.whl
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.manifest
+*.spec
+
+# ── Virtual Environment ───────────────────────────────
+venv/
+.venv/
+env/
+ENV/
+.env
+.env.local
+.env.*.local
+
+# ── Data / Models (thường quá lớn để push) ───────────
+data/vector_db/
+data/loader_cache/
+data/input/
+*.pkl
+*.faiss
+*.index
+
+# ── HuggingFace / Torch cache ─────────────────────────
+.cache/
+~/.cache/huggingface/
+*.bin
+*.safetensors
+*.onnx
+*.pt
+*.pth
+
+# ── Streamlit ─────────────────────────────────────────
+.streamlit/secrets.toml
+
+# ── IDE / Editor ──────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ── Testing ───────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+*.coverage
+coverage.xml
+nosetests.xml
+test-results/
+
+# ── Jupyter ───────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ── Logs ──────────────────────────────────────────────
+*.log
+logs/
+
+# ── OS ────────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
